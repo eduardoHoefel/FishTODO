@@ -1,5 +1,7 @@
 # FishTODO
 
+![screenshot](http://i.imgur.com/wNB32eY.png)
+
 Login Manager written in Fish.
 
 # Requeriments:
@@ -29,3 +31,6 @@ Login Manager written in Fish.
   You can also fork this repository and make your own version;
   If you wish to make a .sh version of these scripts, please share with me later :)
   (I tried, but it was buggy)
+
+# How about the clock?
+I'm using conky. Check the repo: https://github.com/eduardoHoefel/Conky
