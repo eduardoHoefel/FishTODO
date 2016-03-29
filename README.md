@@ -8,7 +8,7 @@ You can remove tasks done with "DONE number", where number is the number next to
 # Requeriments
 
 My other function: echoColored
-(https://github.com/eduardoHoefel/VimEchoColored)
+(https://github.com/eduardoHoefel/FishEchoColored)
 
 # Installation
 
