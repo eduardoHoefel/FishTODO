@@ -2,11 +2,11 @@ function __TODO_greeting
 	set tab "    "
 	set txt (cat ~/TODO.txt)
 	echo ""
-	echo $tab$tab~~~~~~~~ TODO ~~~~~~~~
+	echo $tab$tab(echoColored Blue "~~~~~~~~ TODO ~~~~~~~~")
 	echo ""
 	set inc 1
 	for line in $txt
-		echo $inc$tab$line
+		echo -e  (echoColored Blue $inc)$tab(echoColored Green $line)
 		set inc (math $inc+1)
 	end
 end
