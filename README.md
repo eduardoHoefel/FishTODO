@@ -12,7 +12,7 @@ You can add tasks with "TODO *task*".
 You can remove tasks done with "DONE *number*", where number is the number next to the task.
 
 # Requeriments
-[echoColored]
+[echo_colored]
 (https://github.com/eduardoHoefel/FishEchoColored)
 
 # Installation
