@@ -1,5 +1,4 @@
 function DONE
-<<<<<<< HEAD
 	set lastPwd (pwd)
 	set length (count $argv)
 	set titlePath "/home/$USER/.config/TODO/"
@@ -17,8 +16,4 @@ function DONE
 		end
 	end
 	cd $lastPwd
-=======
-	sed $argv"d" ~/TODO.txt > ~/TODO.txt.2
-	mv ~/TODO.txt.2 ~/TODO.txt
->>>>>>> 2edce36d30a21ec16ac2319fcde1655f98c74ec3
 end

@@ -9,7 +9,7 @@ function __TODO_recursive
 			set count (math $count+1)
 			set firstChar $count
 			for line in (__TODO_recursive $path/$file/)
-				echo (echoColored Blue $firstChar)"    "$line
+				echo (custom_echo Blue Bold $firstChar)"    "$line
 				set firstChar "."
 				#if test $count -gt 1
 				#	set firstChar " "
